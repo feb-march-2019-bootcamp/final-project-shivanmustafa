@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body  id="accordion">
 
 
   <header>
@@ -41,17 +41,17 @@
 
             </div>
             <div class="d-flex flex-row text-center text-white">
-              <div class="p-4 bg-success font-div" data-toggle="collapse" data-target="#home">
+              <div class="p-4 bg-success font-div" data-toggle="collapse" data-target="#home" data-parent="#accordion">
 
                 <i class="fa fa-home fa-2x  d-block"></i>Home
               </div>
-              <div class="p-4 bg-danger font-div" data-toggle="collapse" data-target="#resume">
+              <div class="p-4 bg-danger font-div" data-toggle="collapse" data-target="#resume" data-parent="#accordion">
                 <i class="fa fa-graduation-cap fa-2x  d-block"></i>Resume
               </div>
-              <div class="p-4 bg-primary font-div" data-toggle="collapse" data-target="#work">
+              <div class="p-4 bg-primary font-div" data-toggle="collapse" data-target="#work" data-parent="#accordion">
                 <i class="fa fa-folder fa-2x d-block"></i>work
               </div>
-              <div class="p-4 bg-warning font-div" data-toggle="collapse" data-target="#contact">
+              <div class="p-4 bg-warning font-div" data-toggle="collapse" data-target="#contact" data-parent="#accordion">
                 <i class="fa fa-envelope fa-2x d-block"></i>contact
 
               </div>
@@ -66,11 +66,11 @@
   <div class="container">
     <div class="collapse" id="home">
       <div class="p-5 text-white bg-success">
-        <h2>hhhhhh</h2>
-        <p>dfghjmklkjnhb kjhhj</p>
+        <h2>web developer</h2>
+        <p>ceat simple website</p>
 
       </div>
-      <div class="card card-body">
+      <div class="card card-body" >
         <h2>My skill</h2>
         <P>I have experiance in those things: </P>
         <h4>HTML</h4>
@@ -105,8 +105,8 @@
     </div>
     <div class="collapse" id="resume">
       <div class="p-5 text-white bg-danger">
-        <h2>hhhhhh</h2>
-        <p>dfghjmklkjnhb kjhhj</p>
+        <h2>resume</h2>
+        <p>resume at 2013</p>
       </div>
 
     </div>
